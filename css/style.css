@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;                  /*REIMPOSTAZIONE DEL BROWSER*/
+    box-sizing: border-box;
+}
+
+.logo{
+    display: block;
+    width: 150px;                 /*LOGO*/
+    margin: auto;
+    padding-top: 10px;
+}
+
+body{
+    background-image: url(../images/background.jpg);  /*IMMAGINE DI SFONDO*/
+    background-position: center;
+}
+
+.titolo{
+    font-size: 40px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:darkslategrey;   /*TITOLI INIZIALI*/
+    letter-spacing: 0.03em;
+}
+
+.menu{                               /*MENU ELENCO*/
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;                /*MENU IN LINEA*/
+    padding-right: 8px;
+}
+
+        a:link{
+         text-decoration: none;
+         color: white;
+        }
+
+        a:visited{
+            color: white;           /*EFFETTI LINK*/
+        }
+
+        a:hover{
+            color: yellow;
+        }
+
+        a:active{
+            color: red;
+        }
+
+.menu ul a{
+    font-family: sans-serif;
+    font-weight: 700;                  /*FONT MENU*/
+}
+
+.header{
+    display: block;
+    background-image: url(../images/header.jpg);  /*HEADER, FOOTER*/
+    background-size:cover;
+    background-position:center;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /*STILE PARAFRAFI*/
+    font-size: 18px;
+    font-weight: 100;
+}
+
+img{
+    display: block;             /*FOTO */
+    margin: auto;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;                                       /*H2*/
+    color:darkslategrey;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+}
+
+.primo-paragrafo{
+    background-color: rgba(144, 238, 144, 0.412);
+}
+
+.pulsante{
+    display: block;
+    background-color: lightgreen;
+    padding: 20px;
+    width: 200px;
+    margin: auto;  
+    border-radius: 10px;                         /*PULSANTE*/
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+        .pulsante:hover{
+        color: white;
+        background-color: rgba(2, 127, 2, 0.523);
+        }
+
+.logofooter{                     /*SECONDO LOGO(FOOTER)*/
+    padding-top: 20px;
+    width: 100px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.762);           /*FOOTER BARRA*/
+}
+
+.elenco{
+    list-style-type: circle; /*ORDINE LISTA NON FUNZIONANTE(NON SO PERCHè)*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18px;
+}
+
+.pulsantesocial{
+display: block;
+width: 50px;
+padding-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.socialcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
